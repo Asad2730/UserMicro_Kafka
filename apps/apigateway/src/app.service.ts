@@ -1,6 +1,5 @@
 import { Inject, Injectable, OnModuleInit } from '@nestjs/common';
 import { ClientKafka } from '@nestjs/microservices';
-import { promises } from 'dns';
 import { firstValueFrom } from 'rxjs';
 
 @Injectable()
